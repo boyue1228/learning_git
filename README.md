@@ -22,4 +22,8 @@ version 1.0
 - need first checkout to master branch `git checkout main`
 - and then `git merge dev` , this command will merge dev to main branch 
 - to delete branch dev , use `git branch -d dev ` 
-- if there are conflit when merge, have to manual remove conflit area, and then git add, commit, push ... 
+- if there are conflict when merge, have to manual remove conflict area, and then git add, commit, push ... 
+- `git push origin dev` or `git fetch origin dev`
+### Rebase usage - simplify log
+- `git rebase -i releasenumber`  or `git rebase -i HEAD~3`
+- 

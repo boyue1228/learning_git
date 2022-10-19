@@ -13,3 +13,5 @@
   - to remove `add & commit and from hard disk` , use `git reset --hard HEAD~1` 
   - recommend to use `git revert HEAD` instead of above commands when working within a team in the same branch 
 - remote: after `push` status 
+
+version 1.0

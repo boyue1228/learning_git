@@ -19,4 +19,7 @@ version 1.0
 - create new branch named dev `git branch dev` && `git checkout dev` 
 - or create new and change to dev `git checkout -b dev`
 ### Once dev branch completed, we need to merge dev to main
-- need first checkout to master branch 
+- need first checkout to master branch `git checkout main`
+- and then `git merge dev` , this command will merge dev to main branch 
+- to delete branch dev , use `git branch -d dev ` 
+- if there are conflit when merge, have to manual remove conflit area, and then git add, commit, push ... 
